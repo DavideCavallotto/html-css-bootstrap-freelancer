@@ -12,28 +12,32 @@ nav .col {
     color: white;
 }
 
+.bg-color-green {
+    background-color: var(--green);
+}
+
 .na
 /* sm x-small device */
 
-@media (max-width: 575.98px) {
+@media (min-width: 575.98px) {
 
 }
 
 /* md small device */
 
-@media (max-width: 767.98px) {
+@media (min-width: 767.98px) {
 
 }
 
 /* lg medium device */
 
-@media (max-width: 991.98px) {
+@media (min-width: 991.98px) {
 
 }
 
 /* xl large device */
 
-@media (max-width: 1199.98px) {
+@media (min-width: 1199.98px) {
 
 }
 
@@ -43,7 +47,7 @@ nav .col {
 
 }
 
-/* .debug .row,
+.debug .row,
 .navbar,
 .container-fluid
  {
@@ -51,9 +55,18 @@ nav .col {
     padding: 20px;
 }
 
-.debug [class^="col-"] {
+.debug [class^="col"] {
+    min-height: 50px;
     border: 1px solid red;
-    padding: 20px;
-    
-} */
+    padding: 20px;    
+}
+
+.debug .row {
+    background-color: #2201f7;
+}
+
+.debug .card {
+    min-height: 20px;
+    background-color: chartreuse;
+}
 
