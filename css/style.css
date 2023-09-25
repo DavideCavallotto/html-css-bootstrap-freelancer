@@ -1,0 +1,59 @@
+:root {
+    --blue:#2C3E50;
+    --light-blue:#3A546D;
+    --green:#1ABC9C;
+}
+
+.bg-color-blue {
+    background-color: var(--blue);
+}
+
+nav .col {
+    color: white;
+}
+
+.na
+/* sm x-small device */
+
+@media (max-width: 575.98px) {
+
+}
+
+/* md small device */
+
+@media (max-width: 767.98px) {
+
+}
+
+/* lg medium device */
+
+@media (max-width: 991.98px) {
+
+}
+
+/* xl large device */
+
+@media (max-width: 1199.98px) {
+
+}
+
+/* xxl x-large device */
+
+@media (max-width: 1399.98px) {
+
+}
+
+/* .debug .row,
+.navbar,
+.container-fluid
+ {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.debug [class^="col-"] {
+    border: 1px solid red;
+    padding: 20px;
+    
+} */
+
