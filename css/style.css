@@ -4,6 +4,10 @@
     --green:#1ABC9C;
 }
 
+.bg-color-light-blue {
+    background-color: var(--light-blue);
+}
+
 .bg-color-blue {
     background-color: var(--blue);
 }
@@ -58,6 +62,10 @@
     height: 50px;
     border-radius: 50%;
     border: 1px solid white;    
+}
+
+.green-text {
+    color: var(--green);
 }
 
 
