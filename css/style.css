@@ -8,15 +8,52 @@
     background-color: var(--blue);
 }
 
-nav .col {
-    color: white;
-}
-
 .bg-color-green {
     background-color: var(--green);
 }
 
-.na
+.star-container {
+    position: relative;
+}
+
+
+.star::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: white;
+    right: 25px;
+    top: 50%;    
+    border-radius: 30px;   
+}
+
+.star::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: white;
+    left: 25px;
+    top: 50%;    
+    border-radius: 30px;
+}
+
+.star-black::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    right: 25px;
+    top: 50%;    
+    border-radius: 30px;   
+}
+
+
 /* sm x-small device */
 
 @media (min-width: 575.98px) {
