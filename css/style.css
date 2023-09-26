@@ -16,42 +16,44 @@
     position: relative;
 }
 
-
 .star::before {
-    content: '';
-    display: block;
-    position: absolute;
+    content: '';   
     width: 55px;
-    height: 3px;
-    background-color: white;
-    right: 25px;
-    top: 50%;    
+    height: 3px;          
     border-radius: 30px;   
 }
 
 .star::after {
-    content: '';
-    display: block;
-    position: absolute;
+    content: '';   
     width: 55px;
-    height: 3px;
-    background-color: white;
-    left: 25px;
-    top: 50%;    
+    height: 3px;           
     border-radius: 30px;
 }
 
-.star-black::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 55px;
-    height: 3px;
-    background-color: rgb(0, 0, 0);
-    right: 25px;
-    top: 50%;    
-    border-radius: 30px;   
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
 }
+
+.star-white::before {
+    background-color: white;
+}
+
+.star-white::after {
+    background-color: white;
+}
+
+.star-black::before {
+    background-color: black;
+}
+
+.star-black::after {
+    background-color: black;
+}
+
+
 
 
 /* sm x-small device */
